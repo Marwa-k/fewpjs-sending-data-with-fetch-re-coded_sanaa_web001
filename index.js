@@ -18,4 +18,10 @@ function submitData(userName,userEmail)
    }
   
   return fetch('',DataObject)
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(object) {
+    console.log(object);
+  })
 }
