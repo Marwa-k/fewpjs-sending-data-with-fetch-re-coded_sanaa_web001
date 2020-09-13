@@ -10,7 +10,12 @@ function submitData(userName,userEmail)
   
   let DataObject={
     
-    
-  }
+     headers: {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+    },
+      body: JSON.stringify(DataSend)
+   }
   
+  return fetch('',DataObject)
 }
