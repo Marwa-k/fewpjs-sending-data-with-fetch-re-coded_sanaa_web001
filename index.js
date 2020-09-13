@@ -4,8 +4,8 @@ function submitData(userName,userEmail)
 {
   
   let DataSend={
-    name:"marwa",
-    email:"m@gmail.com"
+    name:userName,
+    email:userEmail
   }
   
   let DataObject={
