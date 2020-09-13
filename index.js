@@ -24,4 +24,8 @@ function submitData(userName,userEmail)
   .then(function(object) {
     console.log(object);
   })
+  .catch(function(error) {
+    alert("Bad things! error");
+    console.log(error.message);
+  });
 }
